@@ -177,15 +177,13 @@
   /* background-image: url("./assets/images/carousel-2.jpg"); */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(9, 30, 62, 0.6), rgba(68, 79, 99, 0.6)), url('./assets/images/carousel-2.jpg');
-  /* background: rgba(67, 67, 177, 0.5);  */
   backdrop-filter: blur(10px);
   background-color: rgb(9, 30, 62);
-  z-index: 1;
-  /* backdrop-filter: ; */
-  /* opacity: 30%; */
+  z-index: 999;
 }
 
 
