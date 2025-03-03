@@ -21,14 +21,13 @@
   line-height: 1.6;
 }
 
-.cardParaFont{
+.cardParaFont {
   font-size: 1.6rem;
-  color: var(--secondaryColor);
+  color: var(--cardFontColor);
   font-family: var(--ffSecondary);
 }
 
-
-.footParaFont{
+.footParaFont {
   font-size: 1.6rem;
   color: var(--whiteColor);
   font-family: var(--ffSecondary);
@@ -60,34 +59,34 @@
   /* font-weight: 300; */
 }
 
-.formFont{
+.formFont {
   font-size: 2rem;
   color: var(--primaryColor);
   font-family: var(--ffPrimary);
 }
 
-.formFont2{
+.formFont2 {
   font-size: 2.4rem;
   color: var(--tertiaryColor);
   font-family: var(--ffPrimary);
   font-weight: 700;
 }
 
-.footHeadFont{
+.footHeadFont {
   font-size: 2.8rem;
   color: var(--whiteColor);
   font-family: var(--ffPrimary);
   font-weight: 700;
 }
 
-.headingLine{
+.headingLine {
   height: 0.5rem;
   width: 15rem;
   border-radius: 5px;
   background-color: var(--tertiaryColor);
 }
 
-.headingLine1{
+.headingLine1 {
   height: 0.5rem;
   width: 15rem;
   border-radius: 5px;
@@ -95,12 +94,12 @@
   /* margin-bottom: 5rem; */
 }
 
-.boder1px{
+.boder1px {
   border: 1px solid var(--darkColor);
   border-radius: 10px;
 }
 
-.serviceCard{
+.serviceCard {
   border: 1px solid var(--darkColor);
   background-color: var(--lightColor);
   border-radius: 10px;
@@ -120,7 +119,7 @@
   font-size: 1.4rem;
 }
 
-.socialIconBox{
+.socialIconBox {
   width: 34%;
   padding-right: 1.4rem;
 }
@@ -144,8 +143,7 @@
   color: var(--darkColor);
 }
 
-
-.logo{
+.logo {
   padding-left: 4.2rem;
 }
 .themeIcon i {
@@ -159,7 +157,7 @@
   font-family: var(--ffPrimary);
 }
 
-.navBody{
+.navBody {
   background-color: #263852;
   /* opacity: 0.9; */
 }
@@ -172,7 +170,6 @@
   font-family: var(--ffPrimary);
 }
 
-
 .heroSection {
   /* background-image: url("./assets/images/carousel-2.jpg"); */
   background-size: cover;
@@ -180,41 +177,40 @@
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(9, 30, 62, 0.6), rgba(68, 79, 99, 0.6)), url('./assets/images/carousel-2.jpg');
+  background: linear-gradient(rgba(9, 30, 62, 0.6), rgba(68, 79, 99, 0.6)),
+    url("./assets/images/carousel-2.jpg");
   backdrop-filter: blur(10px);
   background-color: rgb(9, 30, 62);
   z-index: 999;
 }
 
-
-.heroBox{
+.heroBox {
   background-color: transparent;
   text-wrap: wrap;
-  margin-top: 9.5rem;
-
+  padding-top: 15rem;
 }
 
-.heroBox h5{
-  font-size: 2rem;
+.heroBox h5 {
+  font-size: clamp(12px, 6vw, 20px);
   font-family: var(--ffPrimary);
   font-weight: 700;
 }
 
-.heroBox h1{
-  font-size: clamp(30px, 6vw, 80px);
+.heroBox h1 {
+  font-size: clamp(30px, 6.2vw, 80px);
   font-family: var(--ffPrimary);
   font-weight: 800;
 }
 
-.aboutSection{
+.aboutSection {
   padding: 9rem 0rem;
 }
 
-.abtBottom{
+.abtBottom {
   margin-bottom: 4.5rem;
 }
 
-.aboutImg{
+.aboutImg {
   background-color: var(--tertiaryColor);
   /* background: var(--tertiaryColor); */
   border-radius: 10px;
@@ -225,7 +221,7 @@
   width: 100%;
 }
 
-.aboutImg img{
+.aboutImg img {
   /* background-color: var(--tertiaryColor); */
   position: relative;
   width: 100%;
@@ -237,87 +233,88 @@
   border: 1px solid var(--darkColor);
 }
 
-.whyChooseSection ,  .contactSection ,.ImageSection {
+.whyChooseSection,
+.contactSection,
+.ImageSection {
   padding: 9rem 0rem !important;
 }
 
-.card-head i{
+.card-head i {
   color: var(--tertiaryColor);
   font-size: 5rem;
 }
 
-.chooseImg{
+.chooseImg {
   border: 1px solid var(--darkColor);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
-.chooseImg img{
+.chooseImg img {
   /* border: 1px solid var(--darkColor); */
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
-.serviceCard{
+.serviceCard {
   background-color: var(--lightColor);
 }
 
-.contactBottom{
+.contactBottom {
   margin-bottom: 5rem !important;
 }
 
-.menuicon{
+.menuicon {
   font-size: 2rem;
   color: var(--tertiaryColor);
 }
 
-.menuicon2{
+.menuicon2 {
   font-size: 5rem;
   color: var(--tertiaryColor);
 }
 
-.formBox{
+.formBox {
   background-color: var(--tertiaryColor);
   border-radius: 20px;
 }
 
-.formInput{
-  background-color: #EEF9FF;
+.formInput {
+  background-color: #eef9ff;
   border-radius: 15px;
 }
-option{
+option {
   font-size: 1.8ren;
-
 }
 
-::placeholder{
+::placeholder {
   font-size: 1.6rem;
 }
 
-.regularButton{
+.regularButton {
   background-color: var(--primaryColor);
   border-radius: 15px;
 }
 
-.footerBody{
+.footerBody {
   background-color: var(--primaryColor);
   padding: 6rem 4rem;
 }
 
-.footLine{
+.footLine {
   height: 0.3rem;
   width: 10rem;
   border-radius: 5px;
   background-color: var(--tertiaryColor);
 }
 
-.footCard{
+.footCard {
   background-color: var(--primaryColor);
 }
 
-.footerBlock{
+.footerBlock {
   padding: 5rem 10rem;
 }
 
-.footIconCol{
+.footIconCol {
   color: var(--tertiaryColor);
   font-size: 1.7rem;
 }
@@ -331,44 +328,44 @@ option{
   color: var(--tertiaryColor);
 }
 
-.footListIcon{
+.footListIcon {
   color: var(--tertiaryColor);
   font-size: 1.4rem;
 }
 
-.footListMove:hover{
+.footListMove:hover {
   animation: moveFootList 0.3s ease-in-out;
   animation-fill-mode: forwards;
 }
 
-.footList a:hover{
+.footList a:hover {
   color: var(--whiteColor);
   transform: translateX(10px);
 }
 
 @keyframes moveFootList {
-  form{
+  form {
     transform: translateX(0);
-  }  
-  to{
+  }
+  to {
     transform: translateX(10px);
   }
 }
 
-.copyRightsBody{
+.copyRightsBody {
   background-color: #061429;
   padding: 1.28rem 0rem;
 }
 
-.copyRightsBody p{
+.copyRightsBody p {
   padding-right: 30.5rem;
 }
 
-.copyRightsPara{
+.copyRightsPara {
   text-decoration: underline;
 }
 
-.copyRightsPara:hover{
+.copyRightsPara:hover {
   color: var(--whiteColor);
 }
 
@@ -381,7 +378,7 @@ option{
   background-color: var(--tertiaryColor);
 }
 
-#scrollUpBtn i{
+#scrollUpBtn i {
   background-color: var(--tertiaryColor);
   height: 50px;
   width: 50px;
@@ -389,7 +386,7 @@ option{
   /* border: 15px; */
 }
 
-#scrollUpBtn i:hover{
+#scrollUpBtn i:hover {
   background-color: #d59723;
 }
 
@@ -407,11 +404,17 @@ option{
     grid-template-columns: 1fr;
   }
 
-  .aboutImg{
+  .heroBox {
+    /* background-color: transparent; */
+    /* text-wrap: wrap; */
+    padding-top: 25rem;
+  }
+
+  .aboutImg {
     position: relative;
     left: 0.5rem;
   }
-  .aboutImg img{
+  .aboutImg img {
     /* background-color: var(--tertiaryColor); */
     position: relative;
     width: 100%;
@@ -422,20 +425,20 @@ option{
     aspect-ratio: 1/1;
   }
 
-  .headingBox{
+  .headingBox {
     width: 100%;
   }
 
-  .chooseImg{
+  .chooseImg {
     margin-bottom: 5rem;
   }
-  .contactSmallIcon{
+  .contactSmallIcon {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
   }
-  .contactMenu{
+  .contactMenu {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -443,16 +446,17 @@ option{
     /* padding-left: 0; */
   }
 
-  .footerBox , .footAddress{
+  .footerBox,
+  .footAddress {
     width: 100% !important;
     text-wrap: wrap !important;
   }
 
-  .footerIconBox{
+  .footerIconBox {
     width: 50% !important;
   }
 
-  .copyRightsBody{
+  .copyRightsBody {
     padding: 0 !important;
     text-align: center !important;
   }
@@ -467,7 +471,11 @@ option{
   .grid-4 {
     grid-template-columns: 1fr;
   }
-
+  .heroBox {
+    /* background-color: transparent; */
+    /* text-wrap: wrap; */
+    padding-top: 25rem;
+  }
 }
 
 /* Large devices (Laptops, upto 992px and above) */
@@ -479,6 +487,12 @@ option{
     grid-template-columns: 1fr 1fr;
   }
 
+
+  .heroBox {
+    /* background-color: transparent; */
+    /* text-wrap: wrap; */
+    padding-top: 25rem;
+  }
 }
 
 /* X-Large devices (large desktops, upto 1200px and above) */
@@ -488,18 +502,22 @@ option{
   .grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .heroBox {
+    /* background-color: transparent; */
+    /* text-wrap: wrap; */
+    padding-top: 25rem;
+  }
 
-  .headingBox{
+  .headingBox {
     width: 60%;
     margin: auto;
   }
-
 }
 
 /* XX-Large devices (larger desktops, upto 1400px and above) */
 /* @media (min-width: 1200px)  */
 @media (width >=1200px) {
-  .headingBox{
+  .headingBox {
     width: 50%;
     margin: auto;
   }

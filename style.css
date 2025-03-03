@@ -26,7 +26,7 @@ body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   font-optical-sizing: auto;
-  /* padding-top: 10rem; */
+  /* padding-top: 8rem; */
 }
 
 /* Width of the scrollbar */
@@ -56,7 +56,7 @@ h3,
 h4,
 h6,
 p {
-  text-wrap: balance;
+  /* text-wrap: balance; */
 }
 
 input,
@@ -85,6 +85,7 @@ a {
   --secondaryColor: #6b6a75;
   --tertiaryColor: #f8b275;
   --darkColor: #000000;
+  --cardFontColor:  #333333;
   --lightColor: #eef9ff;
   --greenColor: #006a4e;
   --blueColor: #1173ff;
