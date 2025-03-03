@@ -460,6 +460,10 @@ option {
     padding: 0 !important;
     text-align: center !important;
   }
+
+  .copyRightsBody p {
+    padding-right: 3rem !important;
+  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
